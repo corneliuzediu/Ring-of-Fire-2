@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif !important;
+    overflow: hidden;
+}
+
+@media (max-width: 850px), (max-height: 700px) {
+    //Is hiding the element in mobile view
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+@media (min-width: 850px) {
+    // Is hiding the element in desktop view
+    .hide-desktop {
+        display: none !important;
+    }
+}
+
+@media (max-height: 700px) {
+    .show-landscape {
+        display: flex !important;
+    }
+}

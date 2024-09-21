@@ -29,7 +29,10 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -66,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "RingOfFire-2:build:production"
+              "buildTarget": "ring-of-fire-2-3e4b1:build:production"
             },
             "development": {
-              "buildTarget": "RingOfFire-2:build:development"
+              "buildTarget": "ring-of-fire-2-3e4b1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +92,10 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.scss"
+            ],
             "scripts": []
           }
         }
