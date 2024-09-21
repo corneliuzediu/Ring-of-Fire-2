@@ -138,6 +138,10 @@
     app-player-mobile {
         margin-left: 18px;
     }
+
+    &::-webkit-scrollbar {
+        display: block;
+    }
 }
 
 app-player,
@@ -204,7 +208,7 @@ app-player-mobile {
         top: 20px;
         z-index: 10;
     }
-    
+
     .share_link-btn {
         bottom: unset;
         left: unset;
